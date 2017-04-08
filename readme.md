@@ -2,11 +2,11 @@
 
 Gitterdunn is a hybrid ticketing and scheduling system for mostly repetative tasks.
 
-The underlying idea is that traditional ticket systems (Zendesk) are too 'heavy' for inter-office tasking and reporting and 'to-do' lists (Reminders.app) lack the ability to delegate and show reports.
+The underlying idea is that traditional ticket systems (Zendesk) are too 'heavy' for inter-office tasking and reporting and 'to-do' lists (Reminders.app) lack the ability to delegate tasks and show reports.
 
 The userbase for this app is (mostly) geographically distributed, non-technical teams (don't need to tag bugs, etc.) that have mostly repeating tasks (daily, weekly, monthly).
 
-I got the idea working for a company where we needed to manually process a number of reports on a daily basis (MON-FRI), a different set of weekkly reports (TUE) and an end of the month report (LAST-FRI). We needed to send back and forth a lage number of emails to accomplish this since using a full fledged ticket system was more effort to use than sending of all the emails.
+I got the idea working for a company where we needed to manually process a number of reports on a daily basis (MON-FRI), a different set of weekly reports (TUE) and an end of the month report (L-FRI). We needed to send back and forth a lage number of emails to accomplish this since using a full fledged ticket system was more effort to use than sending of all the emails.
 
 - "Area Reports To" (ART) is which Worker gets to see and delegate tasks, regardless of being assigned the task itself
   - "Areas of Responsibility" are groupings of areas
@@ -41,3 +41,8 @@ Tasks can be set to the following recurring options
   - Occurs once, on the [day] of the month (0-31)
 - Y-[day]
   - Occurs once, on the [day] of the year (0-366)
+
+### Hot-keys, hot-keys, hot-keys!
+I'm not sure why everyone needs to make everyting require a mouse to operate these days, but one of the design goals to to make it so that nearly all, if not all, use of Gitterdunn can be done without the use of a pointer.
+
+The idea is that even though it's a web-page, you can quickly [ALT]/[CMD]-[TAB] to it, then type what you need to type and be done all within one hotkey and no more than two presses of [TAB] 
