@@ -24,7 +24,7 @@ Tasks can have notes added to them by Groups and ART.
 
 ART assigns Workers to Groups it manages.
 
-###Scheduling
+### Scheduling
 Tasks can be set to the following recurring options
 
 - [weekday] -- (SUN, MON, TUE, WED, THU, FRI, SAT)
