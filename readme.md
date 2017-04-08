@@ -45,4 +45,13 @@ Tasks can be set to the following recurring options
 ### Hot-keys, hot-keys, hot-keys!
 I'm not sure why everyone needs to make everyting require a mouse to operate these days, but one of the design goals to to make it so that nearly all, if not all, use of Gitterdunn can be done without the use of a pointer.
 
-The idea is that even though it's a web-page, you can quickly [ALT]/[CMD]-[TAB] to it, then type what you need to type and be done all within one hotkey and no more than two presses of [TAB] 
+The idea is that even though it's a web-page, you can quickly [ALT]/[CMD]-[TAB] to it, then type what you need to type and be done all within one hotkey and no more than two presses of [TAB]
+
+### Responsive design that's actually useful
+Another design goal is that the responsive layout represents relative data at different sizes. Meaning, when it's large, the dashboard with the progress bars is automatically shown, but when the app is 1/4 the width of the screen (and hopefully you drug it to a corner) only the active tasks are shown along with only the most recent notes. Medium size shows everything but the dashboard.
+
+It's your tool, not the other way around.
+
+Effecient, succint, minimal intrusion, minimal white-space.
+
+--Gitterdunn
