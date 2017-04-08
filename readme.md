@@ -48,10 +48,15 @@ I'm not sure why everyone needs to make everyting require a mouse to operate the
 The idea is that even though it's a web-page, you can quickly [ALT]/[CMD]-[TAB] to it, then type what you need to type and be done all within one hotkey and no more than two presses of [TAB]
 
 ### Responsive design that's actually useful
-Another design goal is that the responsive layout represents relative data at different sizes. Meaning, when it's large, the dashboard with the progress bars is automatically shown, but when the app is 1/4 the width of the screen (and hopefully you drug it to a corner) only the active tasks are shown along with only the most recent notes. Medium size shows everything but the dashboard.
+Another design goal is that the responsive layout represents relative data at different sizes, not just move it to another part of the page.
+
+When it's large, the dashboard with the progress bars is automatically shown, but when the app is 1/4 the width of the screen (and hopefully you drug it to a corner) only the active tasks are shown along with only the most recent notes. Medium size shows everything but the dashboard.
 
 It's your tool, not the other way around.
 
 Effecient, succint, minimal intrusion, minimal white-space.
+
+### Alerts
+No more digging through emails to be assigned something to do. When a new task is assigned to you, either by a scheduled recurring task, an ART, or an existing task that was delegated to you, you get a simple desktop notification that takes you right to it. Simple and to the point.
 
 --Gitterdunn
